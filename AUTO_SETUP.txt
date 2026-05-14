@@ -1,0 +1,13 @@
+Run once:
+bash .devcontainer/setup.sh
+
+Features:
+- Auto installs curl + tmux
+- Sends generated VLESS config to Telegram
+- Keeps session alive in tmux session: v2ray_session
+
+Reattach:
+tmux attach -t v2ray_session
+
+Detach:
+Ctrl+B then D
